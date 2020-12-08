@@ -2,7 +2,7 @@ body {
     background-color: black;
     font-size: 22px;
     margin: 0 auto;
-    color: white;
+    color: #938F8E;
     font-family: escapist;
 }
 
@@ -64,11 +64,18 @@ header a:hover {animation-name:socialLink;
 
 #banner-title {
     background-color: #064846;
-    color: #938F8E;
     font-size: 3.75em;
-    
     width:50%;
     height:auto;
+}
+
+#description {
+    text-align: center;
+    margin: 1.25em;
+    justify-content: center;
+    line-height: 1.75em;
+    
+    
 }
 
 
@@ -91,14 +98,14 @@ header a:hover {animation-name:socialLink;
         font-size: 2.0em;
     }
 
-    #banner {
-        background-position-x: left;
-    }
-
     #banner-title {
         width: auto;
         font-size: 2.5em;
         padding: 0 20px;
+    }
+
+    #description {
+        font-size: 0.85em;
     }
 
 }
