@@ -73,7 +73,7 @@ header a:hover {animation-name:socialLink;
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 
     header {
         height: 3.45em;
@@ -89,6 +89,10 @@ header a:hover {animation-name:socialLink;
         margin-right: 0.75em;
         color: #938F8E;
         font-size: 2.0em;
+    }
+
+    #banner {
+        background-position-x: left;
     }
 
     #banner-title {
