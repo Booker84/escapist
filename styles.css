@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     color: #938F8E;
     font-family: escapist;
+    text-align: center;
 }
 
 @keyframes socialLink 	{from {color:#938F8E;}
@@ -93,6 +94,15 @@ header a:hover {animation-name:socialLink;
     height:18.18em;
 }
 
+#reviews {
+    top: 0
+}
+
+#reviews i {
+    color: gold
+}
+
+
 
 
 @media only screen and (max-width: 650px) {
@@ -126,14 +136,25 @@ header a:hover {animation-name:socialLink;
     #pics {
         display: flex;
         flex-direction: column;
+        width: auto;
+        height:auto;
+        margin-left:4.0em
+        
     }
 
     #pics img {
 
-        width: 425px;
-        height: 300px
+        width:18.18em;
+        height: 13.13em;
     }
 
+    .hidden-pic {
+        display: none;
+    }
+
+    #reviews {
+        font-size:0.85em
+    }
 
 }
 
