@@ -79,20 +79,19 @@ header a:hover {animation-name:socialLink;
 }
 
 #pics {
-    width: 54.54em;
+    width: 100%;
     height:36.36em;
-    display: grid;
-    grid-template: 50% 50% / 50% 50%;
-    margin-left: 10%;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #pics img {
     width: 27.27em;
     height:18.18em;
 }
+
 
 
 #reviews i {
@@ -176,7 +175,8 @@ footer a {
         flex-direction: column;
         width: 100%;
         height:auto;
-        margin:0
+        margin:0;
+        
         
     }
 
